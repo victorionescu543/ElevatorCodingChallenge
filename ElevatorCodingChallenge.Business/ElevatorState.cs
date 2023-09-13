@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace Elevator.Wpf
 {
-    public enum ElevatorType
+    public enum ElevatorState
     {
-        FreightElevator = 0,
-        HumanDesignedElevator = 1
+        MovingUp = 0,
+        MovingDown = 1,
+        Idle = 2
     }
 }
